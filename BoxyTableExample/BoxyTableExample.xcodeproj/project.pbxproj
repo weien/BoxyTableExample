@@ -13,6 +13,7 @@
 		64B6AD341D95958C00DE4E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B6AD331D95958C00DE4E19 /* Assets.xcassets */; };
 		64B6AD371D95958C00DE4E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6AD351D95958C00DE4E19 /* LaunchScreen.storyboard */; };
 		64B6AD421D95958C00DE4E19 /* BoxyTableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD411D95958C00DE4E19 /* BoxyTableExampleTests.swift */; };
+		64B6AD4D1D959DF500DE4E19 /* mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 64B6AD4C1D959DF500DE4E19 /* mock_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		64B6AD3D1D95958C00DE4E19 /* BoxyTableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxyTableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B6AD411D95958C00DE4E19 /* BoxyTableExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxyTableExampleTests.swift; sourceTree = "<group>"; };
 		64B6AD431D95958C00DE4E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B6AD4C1D959DF500DE4E19 /* mock_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		64B6AD201D95958C00DE4E19 = {
 			isa = PBXGroup;
 			children = (
+				64B6AD4C1D959DF500DE4E19 /* mock_data.json */,
 				64B6AD2B1D95958C00DE4E19 /* BoxyTableExample */,
 				64B6AD401D95958C00DE4E19 /* BoxyTableExampleTests */,
 				64B6AD2A1D95958C00DE4E19 /* Products */,
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B6AD371D95958C00DE4E19 /* LaunchScreen.storyboard in Resources */,
+				64B6AD4D1D959DF500DE4E19 /* mock_data.json in Resources */,
 				64B6AD341D95958C00DE4E19 /* Assets.xcassets in Resources */,
 				64B6AD321D95958C00DE4E19 /* Main.storyboard in Resources */,
 			);
