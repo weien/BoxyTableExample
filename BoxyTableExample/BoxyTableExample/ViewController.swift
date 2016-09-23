@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let dc = DataController()
+        dc.generateItems()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
