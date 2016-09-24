@@ -10,9 +10,11 @@ import UIKit
 
 class ItemListViewModel: NSObject {
     var items: [Item]
+    var dataController: DataController
     
-    init(items:[Item]) {
-        self.items = items
+    override init() {
+        self.dataController = DataController()
+        self.items = self.dataController.generateItems()
         super.init()
     }
     

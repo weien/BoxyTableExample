@@ -16,10 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let dc = DataController()
-        let generatedItems = dc.generateItems()
-        
-        self.mainViewModel = ItemListViewModel(items: generatedItems)
+        self.mainViewModel = ItemListViewModel()
         self.mainDataSource = ItemListDataSource(tableView: self.mainTableView, viewModel: self.mainViewModel!)
     }
 
