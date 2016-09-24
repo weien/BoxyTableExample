@@ -23,7 +23,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="540" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wFV-U8-toA">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MainCell" rowHeight="540" id="ipA-nW-PiR">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MainCell" rowHeight="540" id="ipA-nW-PiR" customClass="ItemTableViewCell" customModule="BoxyTableExample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="540"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ipA-nW-PiR" id="LxU-6j-ZFr">
@@ -109,6 +109,17 @@
                                                 <constraint firstItem="Tfm-Sg-gFp" firstAttribute="leading" secondItem="LxU-6j-ZFr" secondAttribute="leading" constant="4" id="z5X-a5-3sJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="buyNowButton" destination="qmm-DP-qFh" id="Tif-gz-D2n"/>
+                                            <outlet property="commentLabel1" destination="RAj-IJ-UKz" id="eHe-v6-GWE"/>
+                                            <outlet property="commentLabel2" destination="aVZ-cQ-W7L" id="HGh-94-cGA"/>
+                                            <outlet property="commentLabel3" destination="For-ON-Vxf" id="Oe1-OH-T1j"/>
+                                            <outlet property="dateLabel" destination="RLK-rl-8TB" id="4mi-x7-9gf"/>
+                                            <outlet property="descriptionLabel" destination="Uh9-2H-2Zd" id="9gK-Ej-wEy"/>
+                                            <outlet property="mainImage" destination="3uR-hQ-hC4" id="AWB-o0-Rz0"/>
+                                            <outlet property="mainStackView" destination="Tfm-Sg-gFp" id="hX0-Dk-b6e"/>
+                                            <outlet property="titleLabel" destination="Nqh-Ye-oNg" id="P7P-wn-GqB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

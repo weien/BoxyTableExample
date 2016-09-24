@@ -18,6 +18,7 @@
 		64B6AD521D96CFE400DE4E19 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD511D96CFE400DE4E19 /* Item.swift */; };
 		64B6AD541D96E72C00DE4E19 /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */; };
 		64B6AD561D96E74200DE4E19 /* ItemListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */; };
+		64B6AD581D96FEEB00DE4E19 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD571D96FEEB00DE4E19 /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		64B6AD511D96CFE400DE4E19 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
 		64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataSource.swift; sourceTree = "<group>"; };
+		64B6AD571D96FEEB00DE4E19 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				64B6AD2E1D95958C00DE4E19 /* ViewController.swift */,
 				64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */,
 				64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */,
+				64B6AD571D96FEEB00DE4E19 /* ItemTableViewCell.swift */,
 				64B6AD301D95958C00DE4E19 /* Main.storyboard */,
 				64B6AD331D95958C00DE4E19 /* Assets.xcassets */,
 				64B6AD351D95958C00DE4E19 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				64B6AD541D96E72C00DE4E19 /* ItemListViewModel.swift in Sources */,
 				64B6AD501D959F0600DE4E19 /* DataController.swift in Sources */,
 				64B6AD2D1D95958C00DE4E19 /* AppDelegate.swift in Sources */,
+				64B6AD581D96FEEB00DE4E19 /* ItemTableViewCell.swift in Sources */,
 				64B6AD561D96E74200DE4E19 /* ItemListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
