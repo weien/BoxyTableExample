@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         
         self.mainViewModel = ItemListViewModel()
         self.mainDataSource = ItemListDataSource(tableView: self.mainTableView, viewModel: self.mainViewModel!)
+        
+        self.mainTableView.estimatedRowHeight = 80
+        self.mainTableView.rowHeight = UITableViewAutomaticDimension
     }
 
 }
