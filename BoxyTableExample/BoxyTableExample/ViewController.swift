@@ -9,20 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var mainDataSource: ItemListDataSource?
+    var mainViewModel: ItemListViewModel?
+    @IBOutlet var mainTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let dc = DataController()
-        dc.generateItems()
-        // Do any additional setup after loading the view, typically from a nib.
+        let generatedItems = dc.generateItems()
+        
+        self.mainViewModel = ItemListViewModel(items: generatedItems)
+        self.mainDataSource = ItemListDataSource(tableView: self.mainTableView, viewModel: self.mainViewModel!)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

@@ -27,7 +27,6 @@ class DataController: NSObject {
             }
         }
         
-        print (itemArray.count)
         return itemArray
     }
 }

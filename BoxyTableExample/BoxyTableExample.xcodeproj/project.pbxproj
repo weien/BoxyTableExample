@@ -16,6 +16,8 @@
 		64B6AD4D1D959DF500DE4E19 /* mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 64B6AD4C1D959DF500DE4E19 /* mock_data.json */; };
 		64B6AD501D959F0600DE4E19 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD4F1D959F0600DE4E19 /* DataController.swift */; };
 		64B6AD521D96CFE400DE4E19 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD511D96CFE400DE4E19 /* Item.swift */; };
+		64B6AD541D96E72C00DE4E19 /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */; };
+		64B6AD561D96E74200DE4E19 /* ItemListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		64B6AD4C1D959DF500DE4E19 /* mock_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_data.json; sourceTree = "<group>"; };
 		64B6AD4F1D959F0600DE4E19 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		64B6AD511D96CFE400DE4E19 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
+		64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				64B6AD4E1D959E1000DE4E19 /* Model */,
 				64B6AD2C1D95958C00DE4E19 /* AppDelegate.swift */,
 				64B6AD2E1D95958C00DE4E19 /* ViewController.swift */,
+				64B6AD531D96E72C00DE4E19 /* ItemListViewModel.swift */,
+				64B6AD551D96E74200DE4E19 /* ItemListDataSource.swift */,
 				64B6AD301D95958C00DE4E19 /* Main.storyboard */,
 				64B6AD331D95958C00DE4E19 /* Assets.xcassets */,
 				64B6AD351D95958C00DE4E19 /* LaunchScreen.storyboard */,
@@ -219,8 +225,10 @@
 			files = (
 				64B6AD521D96CFE400DE4E19 /* Item.swift in Sources */,
 				64B6AD2F1D95958C00DE4E19 /* ViewController.swift in Sources */,
+				64B6AD541D96E72C00DE4E19 /* ItemListViewModel.swift in Sources */,
 				64B6AD501D959F0600DE4E19 /* DataController.swift in Sources */,
 				64B6AD2D1D95958C00DE4E19 /* AppDelegate.swift in Sources */,
+				64B6AD561D96E74200DE4E19 /* ItemListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
