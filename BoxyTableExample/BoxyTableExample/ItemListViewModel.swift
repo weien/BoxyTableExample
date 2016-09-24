@@ -38,7 +38,7 @@ class ItemListViewModel: NSObject {
     
     func descForIndexPath(indexPath: IndexPath) -> String {
         let item = self.items[indexPath.row]
-        return item.itemDescription
+        return "Description: " + item.itemDescription
     }
     
     func buyNowValueForIndexPath(indexPath: IndexPath) -> Bool {

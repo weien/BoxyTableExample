@@ -38,7 +38,7 @@ extension ItemListDataSource: UITableViewDataSource {
             cell.commentLabel2.isHidden = true
             cell.commentLabel3.isHidden = true
             
-            cell.commentLabel1.text = comments[0]
+            cell.commentLabel1.text = "Comment: " + comments[0]
             
         }
         else if comments.count == 2 {
@@ -46,17 +46,17 @@ extension ItemListDataSource: UITableViewDataSource {
             cell.commentLabel2.isHidden = false
             cell.commentLabel3.isHidden = true
             
-            cell.commentLabel1.text = comments[0]
-            cell.commentLabel2.text = comments[1]
+            cell.commentLabel1.text = "Comment: " + comments[0]
+            cell.commentLabel2.text = "Comment: " + comments[1]
         }
         else if comments.count == 3 {
             cell.commentLabel1.isHidden = false
             cell.commentLabel2.isHidden = false
             cell.commentLabel3.isHidden = false
             
-            cell.commentLabel1.text = comments[0]
-            cell.commentLabel2.text = comments[1]
-            cell.commentLabel3.text = comments[2]
+            cell.commentLabel1.text = "Comment: " + comments[0]
+            cell.commentLabel2.text = "Comment: " + comments[1]
+            cell.commentLabel3.text = "Comment: " + comments[2]
         }
         else { //0
             cell.commentLabel1.isHidden = true
